@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gambiapro.android.task1.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_txtSelectBeverage" />
+
+    <RadioGroup
+        android:id="@+id/radGrpBeverages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin">
+        <RadioButton
+            android:id="@+id/radWater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_radWater"
+            android:onClick="onRadioClick" />
+        <RadioButton
+            android:id="@+id/radTea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_radTea"
+            android:onClick="onRadioClick" />
+        <RadioButton
+            android:id="@+id/radPinga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_radPinga"
+            android:onClick="onRadioClick" />
+        <RadioButton
+            android:id="@+id/radBeer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_radBeer"
+            android:onClick="onRadioClick" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgViewer"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_btnConfirm"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:onClick="onBtnConfirmClick" />
+</LinearLayout>

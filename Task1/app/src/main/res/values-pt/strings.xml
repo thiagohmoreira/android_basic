@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarefa 1</string>
+    <string name="main_txtSelectBeverage">Selecione sua bebida preferida</string>
+    <string name="main_radWater">Água</string>
+    <string name="main_radTea">Chá</string>
+    <string name="main_radPinga">Pinga</string>
+    <string name="main_radBeer">Cerveja</string>
+    <string name="main_btnConfirm">Confirmar</string>
+    <string name="main_msgNotChosen">Mané, selecione uma bebida!</string>
+    <string name="main_msgCheers">%s, saúde!</string>
+</resources>

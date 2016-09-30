@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Task 1</string>
+    <string name="main_txtSelectBeverage">Select your beverage</string>
+    <string name="main_radWater">Water</string>
+    <string name="main_radTea">Tea</string>
+    <string name="main_radPinga">Pinga</string>
+    <string name="main_radBeer">Beer</string>
+    <string name="main_btnConfirm">Confirm</string>
+    <string name="main_msgNotChosen">Dude, select a beverage!</string>
+    <string name="main_msgCheers">%s, cheers!</string>
+</resources>

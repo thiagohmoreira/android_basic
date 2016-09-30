@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task9</string>
+    <string name="main_txtName">Type your name</string>
+    <string name="main_btnGo">Go</string>
+    <string name="mainMenu_next">Next</string>
+    <string name="mainMenu_about">About</string>
+</resources>
